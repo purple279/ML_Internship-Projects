@@ -11,7 +11,7 @@ The project applies data preprocessing, feature engineering, Principal Component
 ## 🔗 Project Links
 
 🌐 **Live Streamlit App**  
-https://mlinternshipprojects-uantbcdn2kmzdvzbfbgdt7.streamlit.app/
+https://machine-learning-projects-seeazuezwnwbghy4f5twrl.streamlit.app/
 
 💻 **GitHub Repository**  
 https://github.com/purple279/ML_Internship-Projects.git
