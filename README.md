@@ -17,7 +17,7 @@ https://mlinternshipprojects-uantbcdn2kmzdvzbfbgdt7.streamlit.app/
 https://github.com/purple279/ML_Internship-Projects.git
 
 🎥 **Project Demo (YouTube)**  
-https://youtu.be/your-video-link
+https://youtu.be/TibhMYC-AIc
 
 📄 **Research Paper**  
 Research_paper/EduPro%20Research%20paper.pdf
