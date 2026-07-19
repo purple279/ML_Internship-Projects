@@ -14,7 +14,7 @@ The project applies data preprocessing, feature engineering, Principal Component
 https://your-streamlit-app-url.streamlit.app
 
 💻 **GitHub Repository**  
-https://github.com/purple279/ML_Internship_Projects
+https://github.com/purple279/ML_Internship-Projects.git
 
 🎥 **Project Demo (YouTube)**  
 https://youtu.be/your-video-link
