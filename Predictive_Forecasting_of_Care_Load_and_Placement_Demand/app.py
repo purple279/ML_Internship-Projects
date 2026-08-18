@@ -20,29 +20,28 @@ st.set_page_config(
 # LOAD MODEL AND DATA
 # ============================================================
 
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 @st.cache_resource
 def load_model():
-    return joblib.load("gradient_boosting_model.pkl")
-
+    return joblib.load(os.path.join(BASE_DIR, "gradient_boosting_model.pkl"))
 
 @st.cache_data
 def load_features():
-    return joblib.load("feature_columns.pkl")
-
+    return joblib.load(os.path.join(BASE_DIR, "feature_columns.pkl"))
 
 @st.cache_data
 def load_data():
-    data = pd.read_csv("ml_df.csv")
+    data = pd.read_csv(os.path.join(BASE_DIR, "ml_df.csv"))
     data["Date"] = pd.to_datetime(data["Date"])
     data = data.sort_values("Date").reset_index(drop=True)
     return data
 
-
 model = load_model()
 feature_cols = load_features()
 df = load_data()
-
-
 # ============================================================
 # TITLE
 # ============================================================
